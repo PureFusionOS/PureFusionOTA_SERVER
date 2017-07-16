@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>Nebula_9.1.0-EAS_pme_20170713_195406</name> <!-- The name, simples -->
+            <description>High Performance Kernel</description> <!-- You can use markdown here if you want -->
+            <updated-at>2017-07-13</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>12348839</size> <!-- filesize in bytes -->
+            <download-link>
+            https://androidbuilds.spryservers.net/purefusion/kernels/eliminater74/nebula/Nebula_9.1.0-EAS_pme_20170713_195406.zip
+            </download-link>
+        </addon>
+        <addon>
+            <id>2</id> <!-- Use integers only, make them unique -->
+            <name>Magisk v13.2</name> <!-- The name, simples -->
+            <description>Magisk and MagiskSu v13.2</description> <!-- You can use markdown here if you want -->
+            <updated-at>2014-10-14</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5305794</size> <!-- filesize in bytes -->
+            <download-link>
+            http://tiny.cc/latestmagisk
+            </download-link>
+        </addon>
+    </addons>
+</hash>
