@@ -1,16 +1,426 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170716_190717-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170716</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_pme-7.1.2-20170716_190717-OFFICIAL.zip</DirectUrl>
+<VersionName>purefusion_pme-7.1.2-20170717_134053-TESTING</VersionName>
+<VersionNumber type="integer">20170717</VersionNumber>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/testing/purefusion_pme-7.1.2-20170717_134053-TESTING.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>3ced40fb4437fec303142c1828c847dd</CheckMD5>
-<FileSize type="integer">424337255</FileSize>
+<CheckMD5>46df61aea98dea7c76bc29f9989e7655</CheckMD5>
+<FileSize type="integer">654464254</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
 <Changelog>
-<![CDATA[null]]>
+<![CDATA[====================
+     07-17-2017
+====================
+
+
+   * device/htc/pme/
+3ecbf93  pme: Update OTA url.  [Tab Fitts]
+
+   * packages/apps/PureSettings/
+5896cb5  Revert "Add OTA support"  [Tab Fitts]
+ef56c87  Revert "OTA: Update activity name"  [Tab Fitts]
+
+   * packages/apps/Settings/
+547e4bb  [PureFusionOTA] Initial OTA:  [Tab Fitts]
+
+   * vendor/pure/
+c864e80  vendor/pure: Remove time from ota date.  [Tab Fitts]
+3a3fdd0  vendor/pure: Allow device tree to control OTA.  [Tab Fitts]
+51e460c  [PureFusionOTA] Removed Old OTA Replaced with New one:  [Tab Fitts]
+
+====================
+     07-16-2017
+====================
+
+
+   * packages/apps/PureFusionOTA/
+48cdf20  [PureFusion] Code Cleanup:  [Eliminater74]
+22c7c39  [PureFusion] Rejuvinate Code:  [Eliminater74]
+8c27414  [PureFusion] Optimize Imports:  [Eliminater74]
+0cf5936  [PureFusion] Initial Conversion  [Eliminater74]
+
+====================
+     07-15-2017
+====================
+
+
+   * hardware/qcom/audio-caf/msm8996/
+f8fcd59  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+
+   * hardware/qcom/display-caf/msm8996/
+3005091  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+
+   * hardware/qcom/media-caf/msm8996/
+0273a64  Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD  [Luca Stefani]
+
+   * system/core/
+81889ce  Revert "healthd: fix include paths"  [Tab Fitts]
+
+   * system/sepolicy/
+f0f8d1e  Revert "system/sepolicy: Allow system_app to access adbsecure_prop"  [Tab Fitts]
+
+   * vendor/pure/
+78df3b8  sepolicy: Fix adbsecure_prop denials  [Tab Fitts]
+
+====================
+     07-14-2017
+====================
+
+
+   * build/
+41591af  build/core: qcom_target: Add compatibility with CM tree structure.  [Tab Fitts]
+
+   * frameworks/base/
+6a7b605  Add several Slim helper classes and constants back  [Eliminater74]
+17c36b0  Introduce improved FontHelper class  [Eliminater74]
+814944a  Add Helper Classes  [Eliminater74]
+0adabae  frameworks/base: SystemUI: PureFusionify rapid charging strings.  [Eliminater74]
+891ff54  PowerManagerService: add a config to light up buttons only when pressed (1/2)  [Eliminater74]
+
+   * kernel/htc/msm8996/
+88a53c9  defconfig: Tabp0le EAS v3.0  [Tab Fitts]
+a0f62e2  [FIX] [SOUND/SOC/MSM] FIX Mistake Here, Back ported from msm 4.4  [Tab Fitts]
+de9a2c2  ASoC: msm: qdsp6v2: Fix voice call and record SSR test  [Tab Fitts]
+0774a49  ASoC: msm: qdsp6v2: Add support for 7 channel mapping  [Tab Fitts]
+ea271d8  ASoC: msm: qdsp6v2: Support to configure clock recovery mode  [Tab Fitts]
+743177a  ASoC: msm: qdsp6v2: Add support to set render mode  [Tab Fitts]
+f762c78  ASoC: msm: qdsp6v2: Clear pass-through mode on routing close  [Tab Fitts]
+c7095f0  ASoC: msm: qdsp6v2: clear address on error  [Tab Fitts]
+c4501d5  ASoC: wcd: Depend on right config option  [Tab Fitts]
+bad7caf  ASoC: wcd-dsp-mgr: force crash upon collecting ramdumps  [Tab Fitts]
+cc2f8e4  ASoC: wcd-spi: Initialize variables before use  [Tab Fitts]
+64e91eb  ASoC: wcd_cpe_core: Initialize variables before use  [Tab Fitts]
+c8a3830  Revert "ASoC: wcd9335: enable APC in Tx path"  [Tab Fitts]
+1f6f52b  ASoC: wcd-spi: add system suspend and resume functionality  [Tab Fitts]
+48f58cc  ASoC: wcd-dsp-mgr: add suspend and resume functionality  [Tab Fitts]
+2b033f9  ASoC: msm-cpe: Add interface to set port  [Tab Fitts]
+6d05dda  uapi: lsm_params: Add interface to disable polling  [Tab Fitts]
+081362f  [Backported 4.4] ASoC: codecs: fix out of bounds copy  [Tab Fitts]
+3fbe356  ASoC: msm: defer the machine driver probing if ADSP is down  [Tab Fitts]
+0f3f5bc  ASoC: msm: add support for TERT_TDM_RX_4 BE  [Tab Fitts]
+bc68581  ASoC: msm: support up to 8 channel capture on MM1  [Tab Fitts]
+74a3ee0  ASoC: msm: qdsp6v2: Add 144k sample rate to compress driver  [Tab Fitts]
+70d78f2  ASoC:[Backported msm-4.4r9] msm: fix ULL playback over a2dp  [Tab Fitts]
+6500632  ASoC:[Backported msm-4.4r9] wcd-spi: fix clock disable request during shutdown  [Tab Fitts]
+bad78a2  ASoC:[Backported msm-4.4r9] wcd9335: Add dapm ignore suspend for codec dai  [Tab Fitts]
+24c2b66  ASoC:[Backported msm-4.4r9] wcd-dsp-mgr: fix restart logic when codec comes back online  [Tab Fitts]
+9aa5fc2  ASoC:[Backported msm-4.4r9] wcd9335: Fix register sequence for CPE configuration  [Tab Fitts]
+bb9fa0c  ASoC:[Backported msm-4.4r9] wcd9335: Fix race during codec master clock (mclk) enablement  [Tab Fitts]
+4f35f18  ASoC:[Backported msm-4.4r9] wcd-spi: Add memory read debug support  [Tab Fitts]
+6ba0116  ASoC:[Backported msm-4.4r9] wcd-spi: fix the maximum transfer unit setting  [Tab Fitts]
+c831f54  ASoc:[Backported msm-4.4r9] wcd9335: Ignore mbhc get impedance error  [Tab Fitts]
+1e21e43  ASoC:[Backported msm-4.4r9] wcd-spi: Initialize local variables before usage  [Tab Fitts]
+94d8804  ASoC:[Backported msm-4.4r9] wcd-spi: Move one time initializations to component bind  [Tab Fitts]
+1b2b3ffb  ASoC:[Backported msm-4.4r9] wcd-dsp-mgr: set status before broadcasting post events  [Tab Fitts]
+c8c3004  ASoC:[Backported msm-4.4r9] wcd-spi: fix clock disable  [Tab Fitts]
+3aea987  ASoC:[Backported msm-4.4r9] wcd-dsp-mgr: add support for subsystem restart  [Tab Fitts]
+3a95371  ASoC:[Backported msm-4.4r9] wcd-spi: add support to read requested section of memory  [Tab Fitts]
+e2f2d66  ASoC:[Backported msm-4.4r9] wcd_cpe_core: add arch_setup_dma_ops call  [Tab Fitts]
+1173cfa  ASoC:[Backported msm-4.4r9] wcd9xxx: check impedance index before use  [Tab Fitts]
+1fc81de  ASoC:[Backported msm-4.4r9] codecs: fix edid error when hdmi ops is null  [Tab Fitts]
+1e2667f  ASoC:[Backported msm-4.4r9] wcd: change classh settings as per impedance value  [Tab Fitts]
+96da29a  ASoC:[Backported msm-4.4r9] wcd9335: Configure DMIC clock rate for ECPP path  [Tab Fitts]
+fbf89ee  ASoC:[Backported msm-4.4r9] wcd9335: Add support to enable low power mode on codec  [Tab Fitts]
+f11d932  ASoC:[Backported msm-4.4r9] wcd-spi: SPI driver for WCD audio codecs  [Tab Fitts]
+6ae44ad  ASoC:[Backported msm-4.4r9] wcd_dsp_mgr: Add the WCD DSP manager driver  [Tab Fitts]
+3d812c5  ASoC:[Backported msm-4.4r9] wcd-dsp-utils: Add utilities for wcd dsp  [Tab Fitts]
+d9da3d7  ASoC:[Backported msm-4.4r9] wcd9335: Changes to support CPE session using EC PP path  [Tab Fitts]
+b2c0e78  ASoC:[Backported msm-4.4r9] wcd9335: Add dapm ignore suspend for backend dais  [Tab Fitts]
+9c276fd  ASoC:[Backported msm-4.4r9] wcd9335: don't check for HPHL and HPHR for mono headset  [Tab Fitts]
+0986fca  ASoC:[Backported msm-4.4r9] audio-ext-clk: check for null pointer de-reference  [Tab Fitts]
+cf7e1d8  ASoC:[Backported msm-4.4r9] wcd9335: add all child devices of codec  [Tab Fitts]
+f257875  ASoC:[Backported msm-4.4r9] wcd9335: Remove pop on bring-up of noise cancelling headset  [Tab Fitts]
+292d0aa  ASoC:[Backported msm-4.4r9] wcd-mbhc: fix plug removal detection from extension cable  [Tab Fitts]
+f6fa12e  ASoC:[Backported msm-4.4r9] wcd9335: Update codec driver probe sequence  [Tab Fitts]
+956ffb4  ASoC:[Backported msm-4.4r9] wcd9335: Fix traversing of source dapm widgets  [Tab Fitts]
+dc4d161  ASoC:[Backported msm-4.4r9] wcd9335: Infinite loop when routing DMIC for handset ANC  [Tab Fitts]
+a7de391  ASoC:[Backported msm-4.4r9] wcd9335: Adjust DMIC clock based on sample rate  [Tab Fitts]
+2b55fed  ASoC:[Backported msm-4.4r9] wcd: set pointer to null after kfree  [Tab Fitts]
+10f48f0  ASoC:[Backported msm-4.4r9] wcd9335: Fix race during codec master clock (mclk) enablement  [Tab Fitts]
+57a1e1c  ASoc:[Backported msm-4.4r9] wcd9335: Ignore mbhc get impedance error  [Tab Fitts]
+962b15e  ASoC:[Backported msm-4.4r9] wcd9335: add handset speaker gain mixer control  [Tab Fitts]
+e895456  ASoC:[Backported msm-4.4r9] wcd9335: reduce speaker teardown latency  [Tab Fitts]
+cc6f09c  ASoc:[Backported msm-4.4r9] wcd9335: correct native playback widget on msmcobalt  [Tab Fitts]
+2c1b74e  ASoC:[Backported msm-4.4r9] wcd9335: Add 24bit record support  [Tab Fitts]
+3abb122  sound_control: fix mic reg, add camera mic boost  [Tab Fitts]
+93937b8  Sound Control: rebuild soundcontrol  - Re-build wcd9335 interface  - Fixed code style  - Two channel for headphones boost  - Adjustment based on the current volume  -  - ohter....  [Tab Fitts]
+49b69b4  Sound Control: Add control over earpiece  [Tab Fitts]
+c7fcfba  Sound Control:Initial port for WCD9335 codec * Some modifications to work for HTC msm8996 By @Eliminater74 * Basic functionality for speakers and headphones * Using old sys entries to prevent incompatibility with other apps * Thanks to @flar2 for intial modifications  [Tab Fitts]
+f8e0ef3  [deconfig] Enable sound control: Remove wcd9330 section:  [Tab Fitts]
+ed20ab8  ASoC: msm: Don't force compilation of WCD9330 components for MSM8996 * Original Author: @sultanxda * * MSM8996 uses the WCD9335 codec and the v2 drivers. * So Split the wcd9330 From the wcd9335..  [Tab Fitts]
+45a44e4  defconfig: Remove DTS Eagle as it no longer exists.  [Tab Fitts]
+f02cc44  misc: fingerprint: fpf: fix filtering of events  [Tab Fitts]
+1155041  misc: fpf_filter: fix issues of userspace  [Tab Fitts]
+f105ab7  tcp_output: set initial TCP window size to 64K (speed improvement)  [Tab Fitts]
+fc5cadc  HTC: Sprint: Add Sprint dtsi files, So that we can build for sprint as well  [Tab Fitts]
+24f8565  kernel: Fix potential refcount leak in su check  [Tab Fitts]
+ca67827  arm64: Add NOHZ  [Tab Fitts]
+05a122e  qdsp6v2: extend compilation with Os  [Tab Fitts]
+5ebc954  sound: soc: optimize for size  [Tab Fitts]
+5f5fe7e  sched/core: Remove conflict markers leftover.  [Tab Fitts]
+b0bc939  kernel: avoid adding non-thread-group task to LMK rbtree  [Tab Fitts]
+e593fd0  kernel: support task's adj rbtree  [Tab Fitts]
+48556d7  fs: avoid adding non-thread-group task to LMK rbtree  [Tab Fitts]
+1611434  fs: support task's adj rbtree  [Tab Fitts]
+3c3a944  drivers:lmk: Fix null pointer issue  [Tab Fitts]
+1cee15b  lowmemorykiller: redesign memory instrumentation  [Tab Fitts]
+18281ab  staging: android: lowmemorykiller: skip dying or exiting task  [Tab Fitts]
+fbe0fe8  drivers:lmk: Fix double delete issue  [Tab Fitts]
+88233c2  drivers:lmk: implement task's adj rbtree  [Tab Fitts]
+e70f50c  lowmemorykiller: use for_each_thread instead of buggy while_each_thread  [Tab Fitts]
+dec755a  lowmemorykiller: enhance debug information  [Tab Fitts]
+1424f16  android/lowmemorykiller: Ignore tasks with freed mm  [Tab Fitts]
+b7d7a3b  android/lowmemorykiller: Check all tasks for death pending  [Tab Fitts]
+2d4b535  cpufreq: schedutil: enable fast switch earlier  [Tab Fitts]
+7763712  kernel: Only expose su when daemon is running  [Tab Fitts]
+8992e0b  Revert "scsi: ufs: Fix crashes caused by uninitialized completion usage"  [Tab Fitts]
+42c622f  Revert "block: I/O scheduler driver mod. delay setting noop when screen goes off."  [Tab Fitts]
+0b409a7  Makefile: Silence x.509 warning  [Tab Fitts]
+e2962f8  block: I/O scheduler driver mod. delay setting noop when screen goes off.  [Tab Fitts]
+99f85c9  scsi: ufs: Fix crashes caused by uninitialized completion usage  [Tab Fitts]
+e799e6a  iosched_switcher: Remove unneeded code in change_elevator()  [Tab Fitts]
+5594a9b  iosched_switcher: Ensure the previous elevator name is always present  [Tab Fitts]
+e0270e2  dm: Configure the I/O sched switcher for dm block devices  [Tab Fitts]
+7b040af  scsi: sd: Configure the I/O sched switcher for sda too  [Tab Fitts]
+7504be5  iosched_switcher: Allow multiple block devices to be used  [Tab Fitts]
+0f4ce89  [defconfig] Enable I/O sched switcher  [Tab Fitts]
+4d506d3  scsi: sd: Configure the I/O sched switcher for the sde block device  [Tab Fitts]
+3a4cb2429  [block] iosched: Remove iosched_test Completly:  [Tab Fitts]
+636569e  block: Add driver to change the I/O scheduler when the screen turns off  [Tab Fitts]
+f56723b  sched: Make iowait_boost optional in schedutil  [Tab Fitts]
+688a660  sched/fair: Fix load_balance() affinity redo path  [Tab Fitts]
+eb12625  sched/fair: Remove group imbalance from calculate_imbalance()  [Tab Fitts]
+a434a9e  lowmemorykiller: account for unevictable pages  [Tab Fitts]
+51a89c3  android/lmk: reset to common-3.18 version  [Tab Fitts]
+3178ead  Defconfig: Enable CONFIG_BLK_DEV_NULL_BLK for I/O benchmarking  [Tab Fitts]
+6f18f62  Defconfig: Enable CONFIG_BFQ_GROUP_IOSCHED  [Tab Fitts]
+9cd7975  BFQ: Port BFQ-v8r10 to Android 3.18 kernel  [Tab Fitts]
+00e4cf0  drivers: wakeup: allow to request and count wakelocks with screen on.  [Tab Fitts]
+f305280  drivers: wakeup: allow 1 wakeup from IPA_WS every now and then  [Tab Fitts]
+4e5e98c  drivers: wakeup: be more thorough with blocking wakelocks  [Tab Fitts]
+006dcdc  drivers: wakeup: it's pointless to output the active wakeup sources during screen on, no need to go through the rcu locks and list iterations every now and then  [Tab Fitts]
+f864a52  drivers: wakeup: there's no much point in running the blockers during screen on  [Tab Fitts]
+8b68d2e  drivers: wakeup: run the wakelock blockers during wakeup_source activation and every resume  [Tab Fitts]
+fcc5592  drivers: wakeup: more thoroughly deactivation of wakelocks  [Tab Fitts]
+67ed7ce  PM/wakeup: Add toggle for NETLINK and [timerfd] wakelocks  [Tab Fitts]
+ce6cce7  power: align wakeup_sources format  [Tab Fitts]
+83c0e8e  qpnp-smbcharger: Publish charger voltage to the usb psy  [Tab Fitts]
+af256d8  sweep2sleep: don't create input device  [Tab Fitts]
+7597d49  defconfig: disable SWAP  [Tab Fitts]
+3c251c7  defconfig: enable s2s  [Tab Fitts]
+6538d25  touch: sweep2sleep  [Tab Fitts]
+cef16a8  tcp_cubic: do not set epoch_start in the future  [Tab Fitts]
+1203e5f  tcp_cubic: better follow cubic curve after idle period  [Tab Fitts]
+139839e  net: sch_generic: Allow devices to opt-out net watchdog  [Tab Fitts]
+77b95b5  mm: slub: Default slub_max_order to 0  [Tab Fitts]
+d64adfe  asm-generic: atomic.h: relaxed atomic_read  [Tab Fitts]
+9521d6d  kbuild: move -Wunused-const-variable to W=1 warning level  [Tab Fitts]
+497e2a4  Defconfig: Enable Advanced TCP Options  [Tab Fitts]
+60141a3  SCHED: SCHEDUTIL: Fix tunables not sticking after core going offline  [Tab Fitts]
+02cfb79  defconfig: Enable NTFS & NTFS RW support  [Tab Fitts]
+4cc65a9  FROMLIST: sched, cpuidle: Track cpuidle state index in the scheduler  [Tab Fitts]
+47d0fbe  PM / sleep: Handle failures in device_suspend_late() consistently  [Tab Fitts]
+a730e58  PM / Runtime: Fix error path in pm_runtime_force_resume()  [Tab Fitts]
+95b902f  mdss: use an interruptible thread on edp to reduce load_average  [Tab Fitts]
+55b985f  defconfig:kcal: enable kcal  [Tab Fitts]
+b6882f3  msm: mdss mdp: kcal: fixing up missing kfree for payloads  [Tab Fitts]
+469bec7  mdss mdp: kcal for htc 10 (pme) patch  [Tab Fitts]
+e4ea5ad  adrenoboost: disable by default  [Tab Fitts]
+3419473  adrenoboost: finetuning algorithm - scale it a bit down  [Tab Fitts]
+752ebb8  msm_adreno_tz: add adrenoboost parameter  [Tab Fitts]
+3fe09f0  cpufreq_alucardsched: Tuned default parameters. Thanks to @mostafawael and @RenderBroken for tuning!  [Tab Fitts]
+710457b  cpufreq_alucardsched: better cpu load calculation for frequency increasing and decreasing when CONFIG_MACH_MSM8996_H1 is not defined.  [Tab Fitts]
+b693950  block: iosched: Add option for default FIOPS sched  [Tab Fitts]
+723b856  PM / devfreq: Add a governor white list  [Tab Fitts]
+0f6e4b0  msm: thermal: Add sysfs nodes to control parameters  [Tab Fitts]
+c1ee095  defconfig: Update I/O schedulers to include maple  [Tab Fitts]
+a5fd7ca  block: Maple.iosched: Fix Compiler Errors  [Tab Fitts]
+ed29ccd  block: maple: Stop abusing csd.list for fifo_time  [Tab Fitts]
+16fa84f  maple-iosched: Fix the -Wdeclaration-after-statement warnings  [Tab Fitts]
+a3765b2  block: maple: Fix inverted logic  [Tab Fitts]
+74616b90  block: maple: Make bools constant across functions  [Tab Fitts]
+c3cf051  block: maple: Use native display state instead of PowerSuspend  [Tab Fitts]
+75a72ed  block: maple: Serve asynchronous requests before synchronous ones  [Tab Fitts]
+421e72f  block: maple: Fix some logic, import former/latter request logic from SIO, and use some improved bits of SIO  [Tab Fitts]
+f8632ee  block: maple: Catch writes_starved sooner, increase limit.  [Tab Fitts]
+14a7655d  block: maple: Clean up and add patchlevel macro to keep track of commits  [Tab Fitts]
+125252b  block: maple: Remove CONFIG_HZ dependency, assume 300 for interrupt frequency  [Tab Fitts]
+2e3842a  block: [Introduded for 3.18.y] Add Maple I/O Scheduler  [Tab Fitts]
+51be989  display: add a simple api to query the display state (on/off) at any point in time  [Tab Fitts]
+bca9596  random: Remove kernel blocking API  [Tab Fitts]
+92f8e5d  random: Add callback API for random pool readiness  [Tab Fitts]
+d7d368e  random: Blocking API for accessing nonblocking_pool  [Tab Fitts]
+169b6c6  random: Wake up all getrandom(2) callers when pool is ready  [Tab Fitts]
+ba5b3e0  writeback: fix writeback cache thrashing  [Tab Fitts]
+f5a1173  EAS/sched: darknesssched: Fix left in LG handler  [Tab Fitts]
+91acde3  cpufreq_darknesssched: small fix  [Tab Fitts]
+550c2e7  cpufreq_darknesssched: Created a new sched governor.  [Tab Fitts]
+fa01fbb  misc: fingerprint: fpf: adding lowest possible dt latency value  [Tab Fitts]
+f73e348  misc: fpf filter: add configuration fpf value 1 for generic home button working  [Tab Fitts]
+ed1f0be  fingerprint: fpf filter: add sysfs to configure Doubltap wait  [Tab Fitts]
+640d250  misc: fingerprint_filter: removing potential null reference  [Tab Fitts]
+f08d286  misc: fingerprint_filter: fingerpint doubletap sleep clean up  [Tab Fitts]
+ce37034  Fingerprint doubletap sleep: minor corrections vibration extern (also thx flar2 for the exmplae and the s2s module base!)  [Tab Fitts]
+fc3428c  fingerprint doubletap sleep driver  [Tab Fitts]
+a3a5e04  sched/core: Remove false-positive warning from wake_up_process()  [Tab Fitts]
+3184372  power: wakeup: add ipa_ws option  [Tab Fitts]
+8429113  wakeup: remove bluesleep wakelock disable, it's causing more problems than it's worth  [Tab Fitts]
+15e41e4  wakeup: try to deactivate a wakeup source when the user explicitly disables it from userspace  [Tab Fitts]
+5581be2  wakeup: add toggle for bluesleep wakelock  [Tab Fitts]
+3bc284a  wakeup: add toggle for bluedroid_timer wakelock  [Tab Fitts]
+2467f5b  wakeup: add toggles for wlan wakelocks. They are all enabled by default, it's up to the user and I provide no support if Wi-Fi stops working normally without these locks enabled. This is for advanced users  [Tab Fitts]
+ffc38f3  WLAN: reduce wakelocks via sysfs node  [Tab Fitts]
+efa05c7  workqueue: make sure delayed work run in local cpu  [Tab Fitts]
+ce4a576  vmstat: Reduce time interval to stat update on idle cpu  [Tab Fitts]
+4959c8d  msm_bus_arb/msm_bus_arb_adhoc: Make update_request_legacy/update_request_adhoc functions less chatty  [Tab Fitts]
+4c5ac93  fs: fsync: add a toggle to enable or disable fsync() operations  [Tab Fitts]
+3137bc5  PM: devfreq: Use high priority workqueue  [Tab Fitts]
+cd97c70  hall_sensor: option to disable magnetic cover  [Tab Fitts]
+aad6314  fs/sync.c: make sync_file_range(2) use WB_SYNC_NONE writeback  [Tab Fitts]
+debb007  cpufreq_alucardsched: tuned default settings.  [Tab Fitts]
+f268d21  cpufreq_alucardsched: Updated cpu governor following SCHED EAS table.  [Tab Fitts]
+0a95902  cpufreq_alucardsched: Created a new sched governor.  [Tab Fitts]
+a79db78  mmc: move to a SCHED_FIFO thread  [Tab Fitts]
+b11e2e6  usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs  [Tab Fitts]
+1c0b411  fastcharge: fix ifdef part  [Tab Fitts]
+066fd01  Add new I/O schedulers to defconfig  [Tab Fitts]
+3bdd745  Add fast charge to defconfig  [Tab Fitts]
+ef8236f  qpnp-smbcharge: 0.5A -> 0.9A max current fastcharge  [Tab Fitts]
+05ad797  proc: Remove additional SafetyNet flags from /proc/cmdline  [Tab Fitts]
+6e9bde5  proc: Remove verifiedbootstate flag from /proc/cmdline  [Tab Fitts]
+44b0eae  add many schedulers zen scheduler fiops scheduler sio scheduler fifo scheduler sioplus scheduler tripndroid scheduler vr scheduler zen scheduler  [Tab Fitts]
+cee7236  msm: kgsl: Report correct GPU frequency in sysfs  [Tab Fitts]
+7e10320  CHROMIUM: cpufreq: interactive: calculate load before freq change  [Tab Fitts]
+82e8c24  arch: Unbreak mrproper/clean  [Tab Fitts]
+7d14403  arm64: Fix the ARM userspace build  [Tab Fitts]
+c07c5fd  sched/deadline: Avoid pointless __setscheduler()  [Tab Fitts]
+874a703  sched/wait: Fix a kthread race with wait_woken()  [Tab Fitts]
+5fd526f  selinux: just shut up  [Tab Fitts]
+4f752d1  PCI / PM: Avoid resuming more devices during system suspend  [Tab Fitts]
+4acdd2b  PCI / PM: Avoid resuming PCI devices during system suspend  [Tab Fitts]
+0eb6a4c  binfmt_elf.c: use get_random_int() to fix entropy depleting  [Tab Fitts]
+5bc7f8c  AIO: Don't plug the I/O queue in do_io_submit()  [Tab Fitts]
+692fc79  msm: qdsp6v2: Allow 320K AAC encoding  [Tab Fitts]
+a1009d6  Remove '+' symbol from kernel version string  [Tab Fitts]
+60b8818  msm: Use interruptible wait to not affect load average  [Tab Fitts]
+481947f  qcom: mpm: use interruptible wait to reduce load avg  [Tab Fitts]
+0b8298a  arm64: lib: memory utilities optimization  [Tab Fitts]
+28fde53  power: make sync on suspend optional  [Tab Fitts]
+9af86a7  msm: vidc: disable debug logs  [Tab Fitts]
+ec69c55  power: kill all teh prints, they clog dmesg  [Tab Fitts]
+0704520  Silences WLAN, PCIe, and CPU suspend state kernel messages  [Tab Fitts]
+92f6065  zram: make sure we use lz4 and appropriate compression streams number  [Tab Fitts]
+66ceee4  msm: mpm: disable debugging  [Tab Fitts]
+f1ee1c1  pme: Add f2fs support  [Tab Fitts]
+abf74d0  arm64: crypto: reduce priority of core AES cipher  [Tab Fitts]
+c34d73f  arm64/crypto: use crypto instructions to generate AES key schedule  [Tab Fitts]
+469005b  arm64: crypto: increase AES interleave to 4x  [Tab Fitts]
+e8be39b  arm64/crypto: issue aese/aesmc instructions in pairs  [Tab Fitts]
+166e489  arm64: crypto: Change priority of arm64 aes cipher.  [Tab Fitts]
+8d4b130  crypto: arm64/crc32 - bring in line with generic CRC32  [Tab Fitts]
+d70e3e7  crypto: crc32 - Add ARM64 CRC32 hw accelerated module  [Tab Fitts]
+e7405eb  msm: lpm-levels: add suspend_again handler  [Tab Fitts]
+f378db3  power: quickwakeup: initial driver  [Tab Fitts]
+42244d1  cpufreq: show cpu voltages via sysfs msm8996  [Tab Fitts]
+4ec7301  UPSTREAM: arm64: cpufeature.h: add missing #include of kernel.h  [Tab Fitts]
+ce8b014  UPSTREAM: cpufreq: schedutil: Trace frequency only if it has changed  [Tab Fitts]
+1efd3de  UPSTREAM: cpufreq: schedutil: Avoid reducing frequency of busy CPUs prematurely  [Tab Fitts]
+31ee85b  UPSTREAM: cpufreq: schedutil: Refactor sugov_next_freq_shared()  [Tab Fitts]
+2f088ea  UPSTREAM: cpufreq: schedutil: Fix per-CPU structure initialization in sugov_start()  [Tab Fitts]
+643f508  UPSTREAM: cpufreq: schedutil: Pass sg_policy to get_next_freq()  [Tab Fitts]
+d933696  UPSTREAM: cpufreq: schedutil: move cached_raw_freq to struct sugov_policy  [Tab Fitts]
+ef1fa05  UPSTREAM: cpufreq: schedutil: Rectify comment in sugov_irq_work() function  [Tab Fitts]
+ecaf698  UPSTREAM: cpufreq: schedutil: irq-work and mutex are only used in slow path  [Tab Fitts]
+394dc8d  UPSTREAM: cpufreq: schedutil: enable fast switch earlier  [Tab Fitts]
+d974566  UPSTREAM: cpufreq: schedutil: Avoid indented labels  [Tab Fitts]
+9fb0edf  cpufreq/sched: Use cpu max freq rather than policy max  [Tab Fitts]
+09e680a5  Revert "cpuidle: Wakeup only cpus for which qos has changed."  [Tab Fitts]
+1e83ced  cpuidle: Fix cpuidle_state_is_coupled() argument in cpuidle_enter()  [Tab Fitts]
+34c85a5  staging: binder - Set binder_debug_mask=0 to suppress logging  [Tab Fitts]
+b9d63d0  android: binder: Disable preemption while holding the global binder lock.  [Tab Fitts]
+9bdbbb1  CHROMIUM: android: binder: Fix potential scheduling-while-atomic  [Tab Fitts]
+a82cba5  Revert "memcg: add permission check"  [Tab Fitts]
+b7ef00e  Revert "cgroup: memcg: pass correct argument to subsys_cgroup_allow_attach"  [Tab Fitts]
+d01de05  cgroup: Change from CAP_SYS_NICE to CAP_SYS_RESOURCE for cgroup migration permissions  [Tab Fitts]
+b7edb10  CHROMIUM: cgroups: relax permissions on moving tasks between cgroups  [Tab Fitts]
+f328f2f  ANDROID: sched/tune: Remove leftover instances of allow_attach  [Tab Fitts]
+3ffed13  Revert "cgroup: refactor allow_attach function into common code"  [Tab Fitts]
+d4fd35b  Revert "cgroup: Add generic cgroup subsystem permission checks"  [Tab Fitts]
+e4bf91f9  Revert "cgroup: Clean up after allow_attach check"  [Tab Fitts]
+ce338ba  cpuset: make sure new tasks conform to the current config of the cpuset  [Tab Fitts]
+6f16a1c  Revert "cpuset: Add allow_attach hook for cpusets on android."  [Tab Fitts]
+53e5cec  cpuset: handle race between CPU hotplug and cpuset_hotplug_work  [Tab Fitts]
+aa1b8fa  sched: Fix build without cpufreq_sched governror  [Tab Fitts]
+6515080  EAS: Silence logging caused by EAS changes  [Tab Fitts]
+8d542af  sched: walt: fix window misalignment when HZ=300  [Tab Fitts]
+8a6fad2  UPSTREAM: PM / sleep: make PM notifiers called symmetrically  [Tab Fitts]
+eaa531a  BACKPORT: sched/rt: Reduce rq lock contention by eliminating locking of non-feasible target  [Tab Fitts]
+7f48915  sched/loadavg: Fix loadavg artifacts on fully idle and on fully loaded systems  [Tab Fitts]
+169dea9  sched: Check if we got a shallowest_idle_cpu before searching for least_loaded_cpu  [Tab Fitts]
+db4ba19  sched/rt/nohz: Stop scheduler tick if running realtime task  [Tab Fitts]
+1d23ad3  sched: Implement lockless wake-queues  [Tab Fitts]
+6aac1d6  UPSTREAM: sched/fair: Fix post_init_entity_util_avg() serialization  [Tab Fitts]
+9023be8  ANDROID: sched: fix duplicate sched_group_energy const specifiers  [Tab Fitts]
+d19a409  DTS: Update Energy Model for SD820 Devices (msm8996)  [Tab Fitts]
+cd1579d  DTS: MSM8996: EAS Energy Model Change  [Tab Fitts]
+35a5494  sched: EAS: energy model change. Based on QCOM 8996AB one.  [Tab Fitts]
+fda0f64  sched/tune: don't use schedtune before it is ready  [Tab Fitts]
+cc6eae2  sched/fair: use SCHED_CAPACITY_SCALE for energy normalization  [Tab Fitts]
+0f9cd5e  sched/{fair,tune}: use reciprocal_value to compute boost margin  [Tab Fitts]
+1509725  sched/tune: Initialize raw_spin_lock in boosted_groups  [Tab Fitts]
+c356e7e  sched/tune: report when SchedTune has not been initialized  [Tab Fitts]
+31c8557  sched/tune: fix sched_energy_diff tracepoint  [Tab Fitts]
+a0f618a  sched/tune: increase group count to 5  [Tab Fitts]
+dae6ee6  cpufreq/schedutil: use boosted_cpu_util for PELT to match WALT  [Tab Fitts]
+c745864  sched/fair: Fix sched_group_energy() to support per-cpu capacity states  [Tab Fitts]
+860f6e6  sched/fair: discount task contribution to find CPU with lowest utilization  [Tab Fitts]
+cdf0081  cpufreq/schedutil: Fix schedutil's 'default governor' machinery  [Tab Fitts]
+f615d2a  sched/fair: ensure utilization signals are synchronized before use  [Tab Fitts]
+8f189d0  sched/walt: Add CONFIG_USE_WALT to change default usage of WALT  [Tab Fitts]
+8aa10e1  sched/fair: remove task util from own cpu when placing waking task  [Tab Fitts]
+1fdec9a  trace:sched: Make util_avg in load_avg trace reflect PELT/WALT as used  [Tab Fitts]
+dfacbf6  Experimental!: sched/fair: Add eas (& cas) specific rq, sd and task stats  [Tab Fitts]
+2714f6a  sched/core: Fix PELT jump to max OPP upon util increase  [Tab Fitts]
+cd35079  sched: EAS: energy model change  [Tab Fitts]
+8561f5b  dts: Remove additional crap not compatible with EAS.  [Tab Fitts]
+888072aa  defconfig: Convert to EAS  [Tab Fitts]
+
+   * packages/apps/Settings/
+c9a7c33  [selinux] [fix] duplicate error:  [Eliminater74]
+aebbe13  Settings: Fix selinux switch (#601)  [Eliminater74]
+5c61559  Avoid running setenforce if it ain't needed  [Eliminater74]
+1bb57f7  Selinux Switch: Show toast only for permissive on boot  [Eliminater74]
+61a9ee9  Selinux Switch  [Eliminater74]
+
+   * packages/apps/Snap/
+5c51d47  Revert some permissions related changes  [Arne Coucheron]
+
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x/
+ddd3c88  [compiler: 6.x] Inital: 07/13/2017 Update:  [Eliminater74]
+
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x/
+5b73010  [compiler: 7.x] Inital: 07/13/2017 Update:  [Eliminater74]
+
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-8.x/
+b471611  [compiler: 8.x] Inital: 07/13/2017 Update:  [Eliminater74]
+
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/
+6aefd1f  [compiler: 5.x] Inital: 07/13/2017 Update:  [Eliminater74]
+
+====================
+     07-13-2017
+====================
+
+
+   * packages/apps/PureSettings/
+06d3e79  PureSettings: Add 3s default backlight timeout.  [Tab Fitts]
+
+   * packages/apps/Snap/
+0dbf891  Add overlay for restarting camera preview for additional cameras  [Rashed Abdel-Tawab]
+
+]]>
 </Changelog>
 <AddonCount>3</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
