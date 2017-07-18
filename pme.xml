@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170717_134053-TESTING</VersionName>
+<VersionName>purefusion_pme-7.1.2-20170717_134053-TESTING.zip</VersionName>
 <VersionNumber type="integer">20170718</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/testing/purefusion_pme-7.1.2-20170718_121212-TESTING.zip</DirectUrl>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_pme-7.1.2-20170718_121212-TESTING.zip</DirectUrl>
 <Android>7.1.2</Android>
 <CheckMD5>4dfbf1cbbb38644ae8f0a49b4cf15fd4</CheckMD5>
 <FileSize type="integer">654495690</FileSize>
