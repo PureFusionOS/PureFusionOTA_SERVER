@@ -19,11 +19,11 @@
         </addon>
         <addon>
             <id>3</id> <!-- Use integers only, make them unique -->
-            <name>Magisk 13.2</name> <!-- The name, simples -->
-            <description>Magisk and MagiskSu v13.2</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-07-17</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>5305794</size> <!-- filesize in bytes -->
-            <download-link>https://androidbuilds.spryservers.net/purefusion/tools/Magisk-v13.2.zip</download-link>
+            <name>Magisk 13.3</name> <!-- The name, simples -->
+            <description>Magisk and MagiskSu v13.3</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-07-19</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5288613</size> <!-- filesize in bytes -->
+            <download-link>https://androidbuilds.spryservers.net/purefusion/tools/Magisk-v13.3.zip</download-link>
         </addon>
     </addons>
 </hash>
