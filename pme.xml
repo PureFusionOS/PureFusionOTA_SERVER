@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170719_093616-OFFICIAL.zip</VersionName>
+<VersionName>purefusion_pme-7.1.2-20170719_093616-OFFICIAL</VersionName>
 <VersionNumber type="integer">20170719</VersionNumber>
 <DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_pme-7.1.2-20170719_093616-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
