@@ -3,7 +3,7 @@
 <RomName>PureFusionOS</RomName>
 <VersionName>purefusion_axon7-7.1.2-20170722_125102-OFFICIAL</VersionName>
 <VersionNumber type="integer">20170722</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_axon7-7.1.2-20170722_125102-OFFICIAL.zip</DirectUrl>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/axon7/release/purefusion_axon7-7.1.2-20170722_125102-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
 <CheckMD5>468e07d3efdb1539cd53d85627b244d1</CheckMD5>
 <FileSize type="integer">654162529</FileSize>
