@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170721_170542-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170721</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_pme-7.1.2-20170721_170542-OFFICIAL.zip</DirectUrl>
+<VersionName>purefusion_axon7-7.1.2-20170722_125102-OFFICIAL</VersionName>
+<VersionNumber type="integer">20170722</VersionNumber>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/pme/release/purefusion_axon7-7.1.2-20170722_125102-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>3cecc2a4db80f1c5520cd6d67338a563</CheckMD5>
-<FileSize type="integer">654698244</FileSize>
+<CheckMD5>468e07d3efdb1539cd53d85627b244d1</CheckMD5>
+<FileSize type="integer">654162529</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL></WebsiteURL>
 <Changelog>
