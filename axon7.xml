@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_axon7-7.1.2-20170722_125102-OFFICIAL</VersionName>
+<VersionName>purefusion_axon7-7.1.2-20170723_214735-OFFICIAL</VersionName>
 <VersionNumber type="integer">20170722</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/axon7/release/purefusion_axon7-7.1.2-20170723_202318-OFFICIAL.zip</DirectUrl>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/axon7/release/purefusion_axon7-7.1.2-20170723_214735-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>468e07d3efdb1539cd53d85627b244d1</CheckMD5>
-<FileSize type="integer">633389817</FileSize>
+<CheckMD5>2c6afa700b3d63a1f664cf5b765767a4</CheckMD5>
+<FileSize type="integer">633389552</FileSize>
 <Developer><![CDATA[aclegg2011]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/axon-7/development/rom-pure-fusion-os-substratum-t3640884</WebsiteURL>
 <Changelog>
