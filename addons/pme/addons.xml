@@ -7,7 +7,7 @@
             <description>Nebula: High Performance EAS Kernel</description> <!-- You can use markdown here if you want -->
             <published-at>2017-07-31</published-at> <!-- Must be in yyyy-mm-dd format -->
             <size>12348681</size> <!-- filesize in bytes -->
-            <download-link>https://androidbuilds.spryservers.net/purefusion/kernels/eliminater74/nebula/Nebula_9.1.1-EAS_pme_20170731_163646.zip/download-link</download-link>
+            <download-link>https://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_9.1.1-EAS_pme_20170731_163646.zip/download-link</download-link>
         </addon>
         <addon>
             <id>2</id> <!-- Use integers only, make them unique -->
@@ -23,7 +23,7 @@
             <description>Magisk and MagiskSu v13.3</description> <!-- You can use markdown here if you want -->
             <published-at>2017-07-19</published-at> <!-- Must be in yyyy-mm-dd format -->
             <size>5288613</size> <!-- filesize in bytes -->
-            <download-link>https://androidbuilds.spryservers.net/purefusion/tools/Magisk-v13.3.zip</download-link>
+            <download-link>https://download.purefusionos.com/tools/Magisk-v13.3.zip</download-link>
         </addon>
     </addons>
 </hash>
