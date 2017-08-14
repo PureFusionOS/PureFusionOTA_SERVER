@@ -9,8 +9,7 @@
 <FileSize type="integer">626554706</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
-<Changelog>
-</Changelog>
+<Changelog>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170811_164723-OFFICIAL_changelog.txt</Changelog>
 <AddonCount>3</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
 </ROM>
