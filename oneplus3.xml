@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+<RomName>PureFusionOS</RomName>
+<VersionName></VersionName>
+<VersionNumber type="integer"></VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/op3/release/</DirectUrl>
+<Android>7.1.2</Android>
+<CheckMD5></CheckMD5>
+<FileSize type="integer">626554706</FileSize>
+<Developer><![CDATA[tabp0le, Eliminater74, siankatabg]]></Developer>
+<WebsiteURL>https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-pure-fusion-os-t3654996</WebsiteURL>
+<Changelog>https://download.purefusionos.com/roms/op3/release/</Changelog>
+<AddonCount>3</AddonCount>
+<AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</Addon$
+</ROM>
