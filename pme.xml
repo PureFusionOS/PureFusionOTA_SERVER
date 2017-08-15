@@ -2,7 +2,7 @@
 <ROM>
 <RomName>PureFusionOS</RomName>
 <VersionName>purefusion_pme-7.1.2-20170814_181731-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170814</VersionNumber>
+<VersionNumber type="integer"></VersionNumber>
 <DirectUrl>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170814_181731-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
 <CheckMD5>4d1b7cb8b3a05bb60d9ff85db9f8f78b</CheckMD5>
