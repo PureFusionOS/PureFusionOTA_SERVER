@@ -2,7 +2,7 @@
 <ROM>
 <RomName>PureFusionOS</RomName>
 <VersionName>purefusion_pme-7.1.2-20170815_123026-TESTICLES</VersionName>
-<VersionNumber type="integer">20170815_123026</VersionNumber>
+<VersionNumber type="string">20170815_123026</VersionNumber>
 <DirectUrl>http://download.purefusionos.com/roms/pme/testing/purefusion_pme-7.1.2-20170815_123026-TESTICLES.zip
 </DirectUrl>
 <Android>7.1.2</Android>
