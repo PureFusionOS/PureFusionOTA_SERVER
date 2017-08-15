@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170815_151819-TESTICLES</VersionName>
-<VersionNumber type="string">20170815_151819</VersionNumber>
-<DirectUrl>http://download.purefusionos.com/roms/pme/testing/purefusion_pme-7.1.2-20170815_151819-TESTICLES.zip
+<VersionName>purefusion_pme-7.1.2-20170815_160623-TESTICLES</VersionName>
+<VersionNumber type="string">20170815_160623</VersionNumber>
+<DirectUrl>http://download.purefusionos.com/roms/pme/testing/purefusion_pme-7.1.2-20170815_160623-TESTICLES.zip
 </DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>47188dce6dc09c582cb29535792dc42f</CheckMD5>
-<FileSize type="integer">580380190</FileSize>
+<CheckMD5>25cb0ca83835e9a9c11a1769eb02338c</CheckMD5>
+<FileSize type="integer">587143472</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
-<Changelog>http://download.purefusionos.com/roms/pme/testing/purefusion_pme-7.1.2-20170815_151819-TESTICLES_changelog.txt</Changelog>
+<Changelog>http://download.purefusionos.com/roms/pme/testing/purefusion_pme-7.1.2-20170815_160623-TESTICLES_changelog.txt</Changelog>
 <AddonCount>3</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
 </ROM>
