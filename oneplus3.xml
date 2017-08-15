@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_oneplus3-7.1.2-20170815_182123-OFFICIAL</VersionName>
+<VersionName>purefusion_oneplus3-7.1.2-20170815_193624-OFFICIAL</VersionName>
 <VersionNumber type="integer">20170815</VersionNumber>
 <DirectUrl>https://download.purefusionos.com/roms/op3/release/</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>452f31b3aa5630e563b81540d7b1e47c</CheckMD5>
-<FileSize type="integer">748866127</FileSize>
+<CheckMD5>0937c520f4450db66b50003c53771bb0</CheckMD5>
+<FileSize type="integer">748865817</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74, siankatabg]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-pure-fusion-os-t3654996</WebsiteURL>
 <Changelog>https://download.purefusionos.com/roms/op3/release/</Changelog>
