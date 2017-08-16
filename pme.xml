@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170814_181731-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170814_181731</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170814_181731-OFFICIAL.zip</DirectUrl>
+<VersionName>purefusion_pme-7.1.2-20170815_171900-OFFICIAL</VersionName>
+<VersionNumber type="string">20170815_171900</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170815_171900-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>4d1b7cb8b3a05bb60d9ff85db9f8f78b</CheckMD5>
-<FileSize type="integer">643249459</FileSize>
+<CheckMD5>4e3518615ce3ca556ef922440ed8d4d4</CheckMD5>
+<FileSize type="integer">488879425</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170814_181731-OFFICIAL_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/pme/release/purefusion_pme-7.1.2-20170815_171900-OFFICIAL_changelog.txt</Changelog>
 <AddonCount>3</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
 </ROM>
