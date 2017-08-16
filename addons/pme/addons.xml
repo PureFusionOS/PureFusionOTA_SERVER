@@ -3,11 +3,11 @@
     <addons>
         <addon>
             <id>1</id> <!-- Use integers only, make them unique -->
-            <name>Nebula_9.1.1-EAS_pme_20170731_163646</name> <!-- The name, simples -->
+            <name>Nebula_9.2.1-EAS_pme_20170816_190321</name> <!-- The name, simples -->
             <description>Nebula: High Performance EAS Kernel</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-07-31</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>12348681</size> <!-- filesize in bytes -->
-            <download-link>https://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_9.1.1-EAS_pme_20170731_163646.zip/download-link</download-link>
+            <published-at>2017-08-16</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>12353084</size> <!-- filesize in bytes -->
+            <download-link>http://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_9.2.1-EAS_pme_20170816_190321.zip/download-link</download-link>
         </addon>
         <addon>
             <id>2</id> <!-- Use integers only, make them unique -->
