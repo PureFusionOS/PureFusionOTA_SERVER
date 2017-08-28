@@ -7,10 +7,18 @@
             <description>Nebula: High Performance EAS Kernel</description> <!-- You can use markdown here if you want -->
             <published-at>2017-08-23</published-at> <!-- Must be in yyyy-mm-dd format -->
             <size>12356368</size> <!-- filesize in bytes -->
-            <download-link>https://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_9.3.0-EAS_pme_20170823_184559.zip/download-link</download-link>
+            <download-link>https://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_9.3.0-EAS_pme_20170823_184559.zip</download-link>
         </addon>
         <addon>
             <id>2</id> <!-- Use integers only, make them unique -->
+            <name>kernel_htc_pme_aosp_tabp0le_eas_3.02</name> <!-- The name, simples -->
+            <description>Go back to the stock Fusion kernel. (tabp0le EAS)</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-08-27</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>11649789</size> <!-- filesize in bytes -->
+            <download-link>https://download.purefusionos.com/kernels/tabp0le/kernel_htc_pme_aosp_tabp0le_eas_3.02.zip</download-link>
+        </addon>
+        <addon>
+            <id>3</id> <!-- Use integers only, make them unique -->
             <name>SuperSU v2.82</name> <!-- The name, simples -->
             <description>SuperSU v2.82 Flashable zip</description> <!-- You can use markdown here if you want -->
             <published-at>2017-05-27</published-at> <!-- Must be in yyyy-mm-dd format -->
@@ -18,7 +26,7 @@
             <download-link>https://s3-us-west-2.amazonaws.com/supersu/download/zip/SuperSU-v2.82-201705271822.zip</download-link>
         </addon>
         <addon>
-            <id>3</id> <!-- Use integers only, make them unique -->
+            <id>4</id> <!-- Use integers only, make them unique -->
             <name>Magisk 13.3</name> <!-- The name, simples -->
             <description>Magisk and MagiskSu v13.3</description> <!-- You can use markdown here if you want -->
             <published-at>2017-07-19</published-at> <!-- Must be in yyyy-mm-dd format -->
