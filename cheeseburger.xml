@@ -2,7 +2,7 @@
 <ROM>
 <RomName>PureFusionOS</RomName>
 <VersionName>purefusion_cheeseburger-7.1.2-20170830_233631-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170830</VersionNumber>
+<VersionNumber type="integer">20170830_233631</VersionNumber>
 <DirectUrl>https://download.purefusionos.com/roms/cheeseburger/release/purefusion_cheeseburger-7.1.2-20170830_233631-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
 <CheckMD5>77c1e3d81c966481b268f10f10d7850a</CheckMD5>
