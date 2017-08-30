@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+<RomName>PureFusionOS</RomName>
+<VersionName>purefusion_cheeseburger-7.1.2-20170830_194544-OFFICIAL</VersionName>
+<VersionNumber type="integer">20170830</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/cheeseburger/release/purefusion_cheeseburger-7.1.2-20170830_194544-OFFICIAL.zip</DirectUrl>
+<Android>7.1.2</Android>
+<CheckMD5>5d5382ddd7be9e2e243a45a8643795ea</CheckMD5>
+<FileSize type="integer">728107108</FileSize>
+<Developer><![CDATA[tabp0le, Eliminater74, siankatabg]]></Developer>
+<WebsiteURL>https://forum.xda-developers.com/oneplus-5/development/rom-pure-fusion-os-t3665340</WebsiteURL>
+<Changelog>https://download.purefusionos.com/roms/op3/release/</Changelog>
+<AddonCount>3</AddonCount>
+<AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/axon7/addons.xml</AddonsURL>
+</ROM>
