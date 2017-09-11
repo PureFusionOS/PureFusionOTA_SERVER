@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_cheeseburger-7.1.2-20170910_230427-OFFICIAL</VersionName>
-<VersionNumber type="integer">20170910_230427</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/cheeseburger/release/purefusion_cheeseburger-7.1.2-20170910_230427-OFFICIAL.zip</DirectUrl>
+<VersionName>purefusion_cheeseburger-7.1.2-20170911_225145-BETA</VersionName>
+<VersionNumber type="integer">20170911_225145</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/cheeseburger/beta/purefusion_cheeseburger-7.1.2-20170911_225145-BETA.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>4e6feadcb7ea3c0ca876781f3cf15d4d</CheckMD5>
-<FileSize type="integer">688102353</FileSize>
+<CheckMD5>de7b0ddc25a05da3a4a9827f46507af4</CheckMD5>
+<FileSize type="integer">688856252</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74, siankatabg]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/oneplus-5/development/rom-pure-fusion-os-t3665340</WebsiteURL>
 <Changelog>https://download.purefusionos.com/roms/op3/release/</Changelog>
