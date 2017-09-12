@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>SuperSU v2.82</name> <!-- The name, simples -->
+            <description>SuperSU v2.82 Flashable zip</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-05-27</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5872025</size> <!-- filesize in bytes -->
+            <download-link>https://s3-us-west-2.amazonaws.com/supersu/download/zip/SuperSU-v2.82-201705271822.zip</download-link>
+        </addon>
+        <addon>
+            <id>2</id> <!-- Use integers only, make them unique -->
+            <name>Magisk 14.0</name> <!-- The name, simples -->
+            <description>Magisk/MagiskSU and Magisk manager</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-09-08</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5800212</size> <!-- filesize in bytes -->
+            <download-link>https://download.purefusionos.com/tools/Magisk-v14.0.zip</download-link>
+        </addon>
+    </addons>
+</hash>
