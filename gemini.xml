@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_gemini-7.1.2-20170913_022632-OFFICIAL</VersionName>
-<VersionNumber type="string"></VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/gemini/release/purefusion_gemini-7.1.2-20170913_022632-OFFICIAL.zip</DirectUrl>
+<VersionName>purefusion_gemini-7.1.2-20170913_185406-OFFICIAL</VersionName>
+<VersionNumber type="string">20170913_185406</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/gemini/release/purefusion_gemini-7.1.2-20170913_185406-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>2a2e27d831c62245513d52c4e4ec23c2</CheckMD5>
-<FileSize type="integer">482301935</FileSize>
+<CheckMD5>c40266115bdf7c1012048822c095b5fe</CheckMD5>
+<FileSize type="integer">482326880</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74, isouzz]]></Developer>
 <WebsiteURL></WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/gemini/release/purefusion_gemini-7.1.2-20170913_022632-OFFICIAL_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/gemini/release/purefusion_gemini-7.1.2-20170913_185406-OFFICIAL_changelog.txt</Changelog>
 <AddonCount>2</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/gemini/addons.xml</AddonsURL>
 </ROM>
