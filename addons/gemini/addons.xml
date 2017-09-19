@@ -17,13 +17,5 @@
             <size>5800212</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/tools/Magisk-v14.0.zip</download-link>
         </addon>
-        <addon>
-            <id>3</id> <!-- Use integers only, make them unique -->
-            <name>PureFusion SignatureSpoofing TWRP</name> <!-- The name, simples -->
-            <description>SignatureSpoofing for Microg TWRP</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-09-19</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>6511656</size> <!-- filesize in bytes -->
-            <download-link>https://download.purefusionos.com/tools/purefusion_SignatureSpoofing-twrp_20170919.zip</download-link>
-         </addon>
     </addons>
 </hash>
