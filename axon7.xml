@@ -7,12 +7,10 @@
 <Android>7.1.2</Android>
 <CheckMD5></CheckMD5>
 <FileSize type="integer"></FileSize>
-<Developer><![CDATA[aclegg2011]]></Developer>
-<WebsiteURL>https://forum.xda-developers.com/axon-7/development/rom-pure-fusion-os-substratum-t3640884</WebsiteURL>
+<Developer><![CDATA[Paul "Bear" Ravenstone]]></Developer>
+<WebsiteURL>https://forum.xda-developers.com/axon-7/development/rom-purefusionos-official-t3670580</WebsiteURL>
 <Changelog>
 </Changelog>
 <AddonCount>2</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/axon7/addons.xml</AddonsURL>
 </ROM>
-
-add for initializing Gerrit
