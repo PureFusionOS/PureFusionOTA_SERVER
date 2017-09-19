@@ -24,12 +24,16 @@
             <published-at>2017-09-19</published-at> <!-- Must be in yyyy-mm-dd format -->
             <size>6511656</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/tools/purefusion_SignatureSpoofing-twrp_20170919.zip</download-link>
+         </addon>
+         <addon>
             <id>4</id> <!-- Use integers only, make them unique -->
             <name>PureFusion SignatureSpoofing Magisk</name> <!-- The name, simples -->
             <description>SignatureSpoofing for Microg Magisk</description> <!-- You can use markdown here if you want -->
             <published-at>2017-09-19</published-at> <!-- Must be in yyyy-mm-dd format -->
             <size>6385827</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/tools/purefusion_SignatureSpoofing-magisk_20170919.zip</download-link>
+         </addon>
+         <addon>
             <id>5</id> <!-- Use integers only, make them unique -->
             <name>PureFusion SignatureSpoofing Uninstall</name> <!-- The name, simples -->
             <description>SignatureSpoofing for Microg Uninstall</description> <!-- You can use markdown here if you want -->
