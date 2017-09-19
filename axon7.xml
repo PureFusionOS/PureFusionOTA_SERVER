@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_axon7-7.1.2-20170907_164944-OFFICIAL</VersionName>
-<VersionNumber type="string">20170907_164944</VersionNumber>
-<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/axon7/release/purefusion_axon7-7.1.2-20170907_164944-OFFICIAL.zip</DirectUrl>
+<VersionName></VersionName>
+<VersionNumber type="string"></VersionNumber>
+<DirectUrl>https://androidbuilds.spryservers.net/purefusion/roms/axon7/release/</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>e27bd4032e44805f5d4fada04ba29e0e</CheckMD5>
-<FileSize type="integer">446512479</FileSize>
+<CheckMD5></CheckMD5>
+<FileSize type="integer"></FileSize>
 <Developer><![CDATA[aclegg2011]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/axon-7/development/rom-pure-fusion-os-substratum-t3640884</WebsiteURL>
 <Changelog>
@@ -14,3 +14,5 @@
 <AddonCount>2</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/axon7/addons.xml</AddonsURL>
 </ROM>
+
+add for initializing Gerrit
