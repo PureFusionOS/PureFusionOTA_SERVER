@@ -11,10 +11,10 @@
         </addon>
         <addon>
             <id>2</id> <!-- Use integers only, make them unique -->
-            <name>kernel_htc_pme_aosp_tabp0le_eas_3.02</name> <!-- The name, simples -->
+            <name>kernel_htc_pme_aosp_tabp0le_eas_3.03</name> <!-- The name, simples -->
             <description>Go back to the stock Fusion kernel. (tabp0le EAS)</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-08-27</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>11649789</size> <!-- filesize in bytes -->
+            <published-at>2017-09-20</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>11649616</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/kernels/tabp0le/kernel_htc_pme_aosp_tabp0le_eas_3.02.zip</download-link>
         </addon>
         <addon>
