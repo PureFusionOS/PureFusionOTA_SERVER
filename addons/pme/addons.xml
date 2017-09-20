@@ -33,5 +33,13 @@
             <size>5800212</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/tools/Magisk-v14.0.zip</download-link>
         </addon>
+        <addon>
+            <id>5</id> <!-- Use integers only, make them unique -->
+            <name>Meganized KCAL Profile</name> <!-- The name, simples -->
+            <description>HTC 10 KCAL profile by @megan</description> <!-- You can use markdown here if you want -->
+            <published-at>2017-09-20</published-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>25</size> <!-- filesize in bytes -->
+            <download-link>https://download.purefusionos.com/tools/Meganized-KCAL_pme</download-link>
+        </addon>
     </addons>
 </hash>
