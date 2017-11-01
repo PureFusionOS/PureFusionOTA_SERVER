@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-7.1.2-20170925_093704-HolyGuacamole</VersionName>
-<VersionNumber type="string">20170925_093704</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/pme/developers/purefusion_pme-7.1.2-20170925_093704-HolyGuacamole.zip
-</DirectUrl>
-<Android>7.1.2</Android>
-<CheckMD5>b52e4958e2096ee177df1ca1d4a51f96</CheckMD5>
-<FileSize type="integer">506652384</FileSize>
+<VersionName>purefusion_pme-8.0.0-20171101_134607-BETA</VersionName>
+<VersionNumber type="string">20171101_134607</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171101_134607-BETA.zip</DirectUrl>
+<Android>8.0.0</Android>
+<CheckMD5>81ff0cc96d2ac027793115f3c7cda064</CheckMD5>
+<FileSize type="integer">597195441</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/pme/developers/purefusion_pme-7.1.2-20170925_093704-HolyGuacamole_changelog.txt</Changelog>
+<Changelog></Changelog>
 <AddonCount>5</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
 </ROM>
