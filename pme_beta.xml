@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-8.0.0-20171102_095223-BETA</VersionName>
-<VersionNumber type="string">20171102_095223</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171102_095223-BETA.zip</DirectUrl>
+<VersionName>purefusion_pme-8.0.0-20171102_103156-BETA</VersionName>
+<VersionNumber type="string">20171102_103156</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171102_103156-BETA.zip</DirectUrl>
 <Android>8.0.0</Android>
-<CheckMD5>87cfc2fc04b695d24f7212715caff2ec</CheckMD5>
-<FileSize type="integer">597192988</FileSize>
+<CheckMD5>9e74e6a9fff6f9d02b81e10d0d641c14</CheckMD5>
+<FileSize type="integer">597597375</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-pure-nexus-mod-substratum-volte-t3611743</WebsiteURL>
 <Changelog></Changelog>
