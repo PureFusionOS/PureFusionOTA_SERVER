@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_gemini-7.1.2-20171020_011838-OFFICIAL</VersionName>
-<VersionNumber type="string">20171020_011838</VersionNumber>
+<VersionName>purefusion_gemini-8.0.0-20171105_032156-BETA</VersionName>
+<VersionNumber type="string">20171105_032156</VersionNumber>
 <DirectUrl>https://download.purefusionos.com/roms/gemini/release/</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>a0258d1b3d10d3d43cdc7d92910ab859</CheckMD5>
-<FileSize type="integer">484121765</FileSize>
+<CheckMD5>0d3dfd6ce6c0ff725f5030316ccda39c</CheckMD5>
+<FileSize type="integer">461877000</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74, isouzz]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/mi-5/development/rom-pure-fusion-os-substratum-t3670946</WebsiteURL>
 <Changelog>https://download.purefusionos.com/roms/gemini/release/</Changelog>
