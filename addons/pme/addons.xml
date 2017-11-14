@@ -2,14 +2,6 @@
 <hash>
     <addons>
         <addon>
-            <id>1</id> <!-- Use integers only, make them unique -->
-            <name>Nebula_10.1.0-EAS_pme_20170920_121326</name> <!-- The name, simples -->
-            <description>Nebula: High Performance EAS Kernel</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-09-20</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>14830723</size> <!-- filesize in bytes -->
-            <download-link>https://download.purefusionos.com/kernels/eliminater74/nebula/Nebula_10.1.0-EAS_pme_20170920_121326.zip</download-link>
-        </addon>
-        <addon>
             <id>2</id> <!-- Use integers only, make them unique -->
             <name>kernel_htc_pme_aosp_tabp0le_eas_4.0-O</name> <!-- The name, simples -->
             <description>Go back to the stock Fusion kernel. (tabp0le EAS)</description> <!-- You can use markdown here if you want -->
