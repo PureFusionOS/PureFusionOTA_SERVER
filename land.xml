@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_land-7.1.2-20171108_185128-Official</VersionName>
-<VersionNumber type="string">20171008_185128</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/land/release/purefusion_land-7.1.2-20171108_185128-Official.zip</DirectUrl>
+<VersionName>purefusion_land-7.1.2-20171117_092721-OFFICIAL.zip</VersionName>
+<VersionNumber type="string">20171117_092721</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/land/release/purefusion_land-7.1.2-20171117_092721-OFFICIAL.zip</DirectUrl>
 <Android>7.1.2</Android>
-<CheckMD5>79af3bc70c5518c9e4ea50339dcf4c62</CheckMD5>
-<FileSize type="integer">509507052</FileSize>
-<Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
+<CheckMD5>edbc5a4a55f2cc0e36f187e59f6658d4</CheckMD5>
+<FileSize type="integer">510719113</FileSize>
+<Developer><![CDATA[tabp0le, Eliminater74, SayanAcharya]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-pure-fusion-os-t3692152</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/land/release/purefusion_land-7.1.2-20171108_185128-Official_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/land/release/purefusion_land-7.1.2-20171117_092721-OFFICIAL.zip_changelog.txt</Changelog>
 <AddonCount>5</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
 </ROM>
