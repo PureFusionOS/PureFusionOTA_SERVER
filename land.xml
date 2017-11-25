@@ -11,5 +11,5 @@
 <WebsiteURL>https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-pure-fusion-os-t3692152</WebsiteURL>
 <Changelog>https://download.purefusionos.com/roms/land/release/purefusion_land-7.1.2-20171122_042315-OFFICIAL_changelog.txt</Changelog>
 <AddonCount>5</AddonCount>
-<AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/pme/addons.xml</AddonsURL>
+<AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/land/addons.xml</AddonsURL>
 </ROM>
