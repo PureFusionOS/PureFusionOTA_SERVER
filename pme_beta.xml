@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-8.0.0-20171211_140651-BETA</VersionName>
-<VersionNumber type="string">20171211_140651</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171211_140651-BETA.zip</DirectUrl>
+<VersionName>purefusion_pme-8.0.0-20171211_152749-BETA</VersionName>
+<VersionNumber type="string">20171211_152749</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171211_152749-BETA.zip</DirectUrl>
 <Android>8.0.0</Android>
-<CheckMD5>c6ab0c12106c3e679c06c223d426ce2b</CheckMD5>
-<FileSize type="integer">658019296</FileSize>
+<CheckMD5>9efe25e3def15c3ef3a95da093906410</CheckMD5>
+<FileSize type="integer">665528700</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-official-pure-fusion-os-oreo-t3694203</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171211_140651-BETA_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171211_152749-BETA_changelog.txt</Changelog>
 <AddonCount>4</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/pf-o/addons/pme/addons.xml</AddonsURL>
 </ROM>
