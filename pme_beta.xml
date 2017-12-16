@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_pme-8.0.0-20171215_142602-RC1</VersionName>
-<VersionNumber type="string">20171215_142603</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171215_142602-RC1.zip</DirectUrl>
+<VersionName>purefusion_pme-8.0.0-20171215_170920-RC1</VersionName>
+<VersionNumber type="string">20171215_170920</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171215_170920-RC1.zip</DirectUrl>
 <Android>8.0.0</Android>
-<CheckMD5>58490297488c459e2516819275982c62</CheckMD5>
-<FileSize type="integer">674226586</FileSize>
+<CheckMD5>b79d58c82c1a0e1733d41a074f2ffb93</CheckMD5>
+<FileSize type="integer">674225328</FileSize>
 <Developer><![CDATA[tabp0le, Eliminater74]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/htc-10/development/rom-official-pure-fusion-os-oreo-t3694203</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171215_142602-RC1_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/pme/testing-o/purefusion_pme-8.0.0-20171215_170920-RC1_changelog.txt</Changelog>
 <AddonCount>4</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/pf-o/addons/pme/addons.xml</AddonsURL>
 </ROM>
