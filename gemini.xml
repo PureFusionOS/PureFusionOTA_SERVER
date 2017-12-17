@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
 <RomName>PureFusionOS</RomName>
-<VersionName>purefusion_gemini-8.0.0-20171105_032156-BETA</VersionName>
-<VersionNumber type="string">20171105_032156</VersionNumber>
-<DirectUrl>https://download.purefusionos.com/roms/gemini/testing-o/purefusion_gemini-8.0.0-20171105_032156-BETA.zip</DirectUrl>
+<VersionName>purefusion_gemini-8.0.0-20171217_140012-BETA</VersionName>
+<VersionNumber type="string">20171217_140012</VersionNumber>
+<DirectUrl>https://download.purefusionos.com/roms/gemini/testing-o/purefusion_gemini-8.0.0-20171217_140012-BETA.zip</DirectUrl>
 <Android>8.0.0</Android>
-<CheckMD5>0d3dfd6ce6c0ff725f5030316ccda39c</CheckMD5>
-<FileSize type="integer">461877000</FileSize>
+<CheckMD5>1bf744ae56c9de757598938a014361a4</CheckMD5>
+<FileSize type="integer">480595280</FileSize>
 <Developer><![CDATA[Isouzz]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/mi-5/development/rom-official-pure-fusion-os-oreo-t3698163</WebsiteURL>
-<Changelog>https://download.purefusionos.com/roms/gemini/testing-o/purefusion_gemini-8.0.0-20171105_032156-BETA_changelog.txt</Changelog>
+<Changelog>https://download.purefusionos.com/roms/gemini/testing-o/purefusion_gemini-8.0.0-20171217_140012-BETA_changelog.txt</Changelog>
 <AddonCount>3</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/gemini/addons.xml</AddonsURL>
 </ROM>
