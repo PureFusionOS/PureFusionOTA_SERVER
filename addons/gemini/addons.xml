@@ -17,13 +17,5 @@
             <size>5800212</size> <!-- filesize in bytes -->
             <download-link>https://download.purefusionos.com/tools/Magisk-v14.0.zip</download-link>
         </addon>
-        <addon>
-            <id>3</id> <!-- Use integers only, make them unique -->
-            <name>SignatureSpoofing (MicroG)</name> <!-- The name, simples -->
-            <description>Enable in developer options</description> <!-- You can use markdown here if you want -->
-            <published-at>2017-10-01</published-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>26948403</size> <!-- filesize in bytes -->
-            <download-link>https://download.purefusionos.com/tools/purefusion_gemini_SignatureSpoofing_20170930.zip</download-link>
-         </addon>
     </addons>
 </hash>

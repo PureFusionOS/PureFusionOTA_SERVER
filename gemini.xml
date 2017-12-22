@@ -10,6 +10,6 @@
 <Developer><![CDATA[Isouzz]]></Developer>
 <WebsiteURL>https://forum.xda-developers.com/mi-5/development/rom-official-pure-fusion-os-oreo-t3698163</WebsiteURL>
 <Changelog>https://download.purefusionos.com/roms/gemini/testing-o/purefusion_gemini-8.0.0-20171222_181531-BETA_changelog.txt</Changelog>
-<AddonCount>3</AddonCount>
+<AddonCount>2</AddonCount>
 <AddonsURL>https://raw.githubusercontent.com/PureFusionOS/PureFusionOTA_SERVER/n-mr2/addons/gemini/addons.xml</AddonsURL>
 </ROM>
